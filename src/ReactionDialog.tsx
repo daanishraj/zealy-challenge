@@ -81,7 +81,7 @@ export const ReactionDialog: React.FC<DialogProps> = ({ top, left, onSave, onClo
 
       <TextInput
         label="What do you think?"
-        placeholder="Enter your thought"
+        placeholder="Do share!"
         value={comment}
         onChange={(event) => setComment(event.currentTarget.value)}
         mt="sm"

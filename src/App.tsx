@@ -65,7 +65,7 @@ const App: React.FC = () => {
           }}
         >
           <span style={{ fontSize: '24px' }}>{reaction.emoji}</span>
-          <div style={{ fontSize: '12px', color: '#333' }}>{reaction.comment}</div>
+          <div style={{ fontSize: '12px', color: '#333', fontStyle:'italic' }}>{reaction.comment}</div>
         </Box>
       ))}
 
